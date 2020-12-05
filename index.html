@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HomePage</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <style type="text/css">
+  body {
+    color: white;
+    background-color: #66c8d7 }
+
+
+         h2{
+         font-size =200px;
+
+
+         }
+
+
+  </style>
+
+  </head>
+  <body>
+
+
+
+      <h2>Welcome to Bitcoin Stock market: </h2>
+      <br>
+      <h2>currency: {{currency}} </h2>
+      <h2>Description: {{description}} </h2>
+      <h2>bitcoin value: {{value}} </h2>
+      <h2>rate float: {{rate}} </h2>
+      <h2>updated on : {{updated}}</h2>
+
+
+
+
+  </body>
+</html>
